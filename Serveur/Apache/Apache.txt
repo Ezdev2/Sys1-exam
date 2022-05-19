@@ -1,4 +1,8 @@
 1. Description
+Apache est un logiciel de serveur web gratuit et open-source qui alimente environ 46% des sites web à travers le monde. Le nom officiel est Serveur Apache HTTP et il est maintenu et développé par Apache Software Foundation.
+
+Il permet aux propriétaires de sites web de servir du contenu sur le web – d’où le nom « serveur web ».
+
 2. Installation
 sudo apt update
 sudo apt install apache2
