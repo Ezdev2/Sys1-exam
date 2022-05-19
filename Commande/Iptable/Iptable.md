@@ -5,18 +5,18 @@ Pourquoi utiliser iptables ?
 Le pare-feu Iptables Linux est utilisé pour surveiller le trafic entrant et sortant vers un serveur et le filtrer en fonction des règles définies par l'utilisateur, afin d'empêcher toute personne d'accéder au système.
 
 ## 2. Installation
-apt install iptables
+```apt install iptables```
 
 ## 3. Type de table
 Les table avec les paramètres  par défaut
-- Filter : L'emplacement prévu pour ajouter des filtres sur les paquets entrant, sortant et traversant. (INPUT/ OUTPUT/ FORWARD)
-- NAT:Permet de faire la traduction d'adresse réseau (NAT) sur différents paquets. (PREROUTING/ POSTROUTING/ OUTPUT)
-- MANGLE: Permet de modifier des paquets en changeant les champs de TOS (type de service), et d'autres (PREROUTING/ OUTPUT)
+- Filter : L'emplacement prévu pour ajouter des filtres sur les paquets entrant, sortant et traversant. ```INPUT/ OUTPUT/ FORWARD```
+- NAT:Permet de faire la traduction d'adresse réseau (NAT) sur différents paquets. ```PREROUTING/ POSTROUTING/ OUTPUT```
+- MANGLE: Permet de modifier des paquets en changeant les champs de TOS (type de service), et d'autres ```PREROUTING/ OUTPUT```
 
 ## 4. Options
 Accepter le trafic
--j accept
+```-j accept```
 
 Refuser le trafic
--j drop
+```-j drop```
 

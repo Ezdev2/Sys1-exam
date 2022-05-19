@@ -18,37 +18,37 @@ Après cette introduction théorique, nous allons passer à la pratique. Pour ce
 ## 4. Installation
 
 Coté serveur: 
-apt-get nfs-kernel-server
-apt install nfs-kernel-server(se référer sur les vidéo semaine 5 sur l’installation des packages)
+```apt-get nfs-kernel-server```
+```apt install nfs-kernel-server(se référer sur les vidéo semaine 5 sur l’installation des packages)```
 
 Créer le dossier et/ou fichierà paartager dans:
-/etc/exports
+```/etc/exports```
 
 Créer un repertoire
-mkdir -p /media/nfs
-mount -t nfs 192.168.21.200:/media/partage /media/nfs
+```mkdir -p /media/nfs```
+```mount -t nfs 192.168.21.200:/media/partage /media/nfs```
 
 Vérifier le montage
-df -h
+```df -h```
 
 Côté client
-apt install nfs-common
+```apt install nfs-common```
 
 
 ## 5. Configuration
 
 Démarrage des services NFS
-sudo /etc/init.d/rpcbind start
-sudo /etc/init.d/nfs-kernel-server start
+```sudo /etc/init.d/rpcbind start```
+```sudo /etc/init.d/nfs-kernel-server start```
 
 Vérification
-sudo rpcinfo –p
+```sudo rpcinfo –p```
 
 Trouver la service NFS
-sudo rpcinfo –p | grep nfs
+```sudo rpcinfo –p | grep nfs```
 
 Partage dans une seule machine
-/media/partage           192.168.21.200(rw,sync,no_root_squash)
+```/media/partage           192.168.21.200(rw,sync,no_root_squash)```
 
 Partage à plusieur machine
-/media/partage           192.168.21.0/24(rw,sync,no_root_squash)
+```/media/partage           192.168.21.0/24(rw,sync,no_root_squash)```
