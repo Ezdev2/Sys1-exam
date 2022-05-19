@@ -1,3 +1,7 @@
+[Go to Readme.md](https://github.com/Ezdev2/Sys1-exam/blob/339c2029e1b0f42828993adb922f40f8ca4defb9/README.md)
+
+***
+
 ## 1. Description
 Samba est un ensemble d'outils permettant de partager des ressources telles que des imprimantes et des fichiers sur un réseau hétérogène. (C’est un serveur fichier)
 Un serveur fichier : Un serveur de fichiers permet de partager des données à travers un réseau.
