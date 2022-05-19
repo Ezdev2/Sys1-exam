@@ -1,9 +1,9 @@
-1. Description
+## 1. Description
 Nginx (Engine X, prononcez [n-gèn-x]) est un serveur Web asynchrone écrit par Igor Sysoev pour les
 besoins d'un site russe à très fort trafic. Il peut être configuré pour faire office de serveur reverse proxy
 Web et de serveur proxy de messagerie électronique (IMAP/POP3).
 
-2. Installation
+## 2. Installation
 Sur linux
 Mettre à jour la liste des paquets
 $ sudo apt install update
@@ -18,7 +18,7 @@ Nginx a l’adress suivant :
 et télécharger la version pour windows qui
 vous convienne
 
-3. Configuration
+## 3. Configuration
 Les fichiers de configuration de nginx se trouves dans le dossier /etc/nginx
 les fichiers qui nous intéresse sont :
 - nginx.conf : Le fichier de configuration globale du serveur.
