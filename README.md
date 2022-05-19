@@ -8,6 +8,6 @@
 - [VSFTPD](https://github.com/Ezdev2/Sys1-exam/blob/d1ecfe08599c1c13d726cc10440d7fea9b4b008f/Serveur/VSFTPD/VSFTPD.md)
 
 ## Les Commandes
-- [Nmap](https://github.com/Ezdev2/Sys1-exam/blob/0d48d8fef84327016490033e0149ebe1f54006f8/Commande/Nmap/Nmap.md)
-- [Tail](https://github.com/Ezdev2/Sys1-exam/blob/66cedbfbf4e7034b07dc70caabec11d7a6d37eea/Commande/Tail/Tail.md)
-- [Iptable](https://github.com/Ezdev2/Sys1-exam/blob/b046b86fc9816455ff53cf144192cf3891a181ce/Commande/Iptable/Iptable.md)
+- [Nmap](https://github.com/Ezdev2/Sys1-exam/blob/710bf9e865e272ccfebcfa9d0a84604f9a2c784e/Commande/Nmap/Nmap.md)
+- [Iptable](https://github.com/Ezdev2/Sys1-exam/blob/710bf9e865e272ccfebcfa9d0a84604f9a2c784e/Commande/Iptable/Iptable.md)
+- [Tail](https://github.com/Ezdev2/Sys1-exam/blob/710bf9e865e272ccfebcfa9d0a84604f9a2c784e/Commande/Tail/Tail.md)
