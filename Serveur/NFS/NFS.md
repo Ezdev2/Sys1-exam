@@ -18,37 +18,51 @@ Après cette introduction théorique, nous allons passer à la pratique. Pour ce
 ## 4. Installation
 
 Coté serveur: 
-```apt-get nfs-kernel-server```
-```apt install nfs-kernel-server(se référer sur les vidéo semaine 5 sur l’installation des packages)```
+```apt-get nfs-kernel-server``` <br>
+```apt install nfs-kernel-server(se référer sur les vidéo semaine 5 sur l’installation des packages)``` <br>
 
 Créer le dossier et/ou fichierà paartager dans:
-```/etc/exports```
+```/etc/exports``` <br>
 
 Créer un repertoire
-```mkdir -p /media/nfs```
-```mount -t nfs 192.168.21.200:/media/partage /media/nfs```
+```mkdir -p /media/nfs``` <br>
+```mount -t nfs 192.168.21.200:/media/partage /media/nfs``` <br>
 
 Vérifier le montage
-```df -h```
+```df -h``` <br>
 
 Côté client
-```apt install nfs-common```
+```apt install nfs-common``` <br>
 
 
 ## 5. Configuration
 
 Démarrage des services NFS
-```sudo /etc/init.d/rpcbind start```
-```sudo /etc/init.d/nfs-kernel-server start```
+```sudo /etc/init.d/rpcbind start``` <br>
+```sudo /etc/init.d/nfs-kernel-server start``` <br>
 
 Vérification
-```sudo rpcinfo –p```
+```sudo rpcinfo –p``` <br>
 
 Trouver la service NFS
-```sudo rpcinfo –p | grep nfs```
+```sudo rpcinfo –p | grep nfs``` <br>
 
 Partage dans une seule machine
-```/media/partage           192.168.21.200(rw,sync,no_root_squash)```
+```/media/partage           192.168.21.200(rw,sync,no_root_squash)``` <br>
 
 Partage à plusieur machine
-```/media/partage           192.168.21.0/24(rw,sync,no_root_squash)```
+```/media/partage           192.168.21.0/24(rw,sync,no_root_squash)``` <br>
+
+***
+
+## Les serveurs:
+- [NFS](https://github.com/Ezdev2/Sys1-exam/blob/4750ad7d4892b82a726086d65c02a70691cd419f/Serveur/NFS/NFS.md)
+- [Apache](https://github.com/Ezdev2/Sys1-exam/blob/4750ad7d4892b82a726086d65c02a70691cd419f/Serveur/Apache/Apache.md)
+- [Nginx](https://github.com/Ezdev2/Sys1-exam/blob/374a9c44fa839a2b5d9c3ce764b1ac481817113a/Serveur/Nginx/Nginx.md)
+- [Samba](https://github.com/Ezdev2/Sys1-exam/blob/5e6f69982d0ecc74b55fad6e14ad86d2690bcf5e/Serveur/Samba/Samba.md)
+- [VSFTPD](https://github.com/Ezdev2/Sys1-exam/blob/d1ecfe08599c1c13d726cc10440d7fea9b4b008f/Serveur/VSFTPD/VSFTPD.md)
+
+## Les Commandes
+- [Nmap](https://github.com/Ezdev2/Sys1-exam/blob/710bf9e865e272ccfebcfa9d0a84604f9a2c784e/Commande/Nmap/Nmap.md)
+- [Iptable](https://github.com/Ezdev2/Sys1-exam/blob/710bf9e865e272ccfebcfa9d0a84604f9a2c784e/Commande/Iptable/Iptable.md)
+- [Tail](https://github.com/Ezdev2/Sys1-exam/blob/710bf9e865e272ccfebcfa9d0a84604f9a2c784e/Commande/Tail/Tail.md)
