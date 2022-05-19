@@ -1,7 +1,7 @@
-1. Description
+## 1. Description
 Nmap, abréviation de Network Mapper, est un outil gratuit et open source pour l'analyse des vulnérabilités et la découverte de réseaux. Les administrateurs réseau utilisent Nmap pour identifier les périphériques exécutés sur leurs systèmes, découvrir les hôtes disponibles et les services qu'ils proposent, rechercher les ports ouverts et détecter les risques de sécurité.
 
-2. Syntaxe
+## 2. Syntaxe
 nmap {cible(s)} 
 exemple : nmap 192.168.1.1
 
@@ -23,14 +23,14 @@ network : www.google.com
 ip address : 192.xxx.xx.xx
 hostname: nom d’hôte
 
-3. Installation
+## 3. Installation
 sudo apt-get update 
 (Sert pour mettre à jour la liste des fichiers disponibles dans les dépôts APT qu’on peut trouvé dans le fichier de configuration /etc/apt/sources.list)
 
 sudo apt-get install nmap 
 (Installer nmap)
 
-4. Généralités
+## 4. Généralités
 Nmap permet de récupérer simplement une liste de ports ouverts sur une machine, de découvrir toutes les machines d’un réseau, mais aussi de savoir quel système d’exploitation elles utilisent.
 
 Les exemples qu’on va voir:
@@ -39,7 +39,8 @@ commande nmap pour:
 - Voir l’état des ports spécifiques 
 - Vérifier le système d’exploitation
 
-5. Liste des commandes Nmap et leur rôles (certaines commandes)
+## 5. Liste des commandes Nmap et leur rôles (certaines commandes)
+
 1- Scanner un seul host :
 #nmap 192.168.1.1
 #nmap www.exemple.com

@@ -1,9 +1,9 @@
-1. Description
+## 1. Description
 Tail est une commande linux utiliser pour afficher les derniers ligne d’un fichier.
 Il affiche habituellement les 10 dernières lignes mais avec des paramètres on peut faire des
 commande plus personnaliser.
 
-2. Utilisation
+## 2. Utilisation
 Afficher les dix dernières lignes d’un fichier :
 $ tail nom_du_fichier
 
